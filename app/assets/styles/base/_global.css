@@ -13,5 +13,9 @@ img {
 }
 
 a {
-    color: $mainOrange;
+    color: $mainBlue;
+}
+
+html {
+	font-size: 14px;
 }

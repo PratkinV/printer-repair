@@ -1,0 +1,171 @@
+/* Do not edit modules/_sprite directly as it is generated automaticaly by Gulp. Instead edit gulp/templates/sprite */
+
+    .icon {
+        background-image: url('../../assets/images/sprites/sprite-d7493774.svg');
+    }
+
+    .no-svg {
+        background-image: url('../../assets/images/sprites/sprite-d7493774.png');
+    }
+
+.icon--svg--001-certificate {
+    width: 551.6px;
+    height: 551.6px;
+    background-position: 99.93753960351226% 51.16714563826829%;
+}
+
+.icon--svg--001-printer {
+    width: 551.88px;
+    height: 551.88px;
+    background-position: 99.95020641703485% 25.589675122385405%;
+}
+
+.icon--svg--002-diploma-3 {
+    width: 500px;
+    height: 500px;
+    background-position: 44.228217602830604% 99.9556360344047%;
+}
+
+.icon--svg--002-printer-1 {
+    width: 552px;
+    height: 552px;
+    background-position: 24.988682661837935% 25.592025961984238%;
+}
+
+.icon--svg--002-technology-1 {
+    width: 99px;
+    height: 99px;
+    background-position: 60.06761833208114% 84.59846743295019%;
+}
+
+.icon--svg--003-copy-machine {
+    width: 99px;
+    height: 99px;
+    background-position: 56.34861006761833% 84.59846743295019%;
+}
+
+.icon--svg--003-diploma-2 {
+    width: 500px;
+    height: 500px;
+    background-position: 22.114108801415302% 99.9556360344047%;
+}
+
+.icon--svg--004-diploma-1 {
+    width: 500px;
+    height: 500px;
+    background-position: 0 99.9556360344047%;
+}
+
+.icon--svg--004-notepad {
+    width: 98.98px;
+    height: 98.98px;
+    background-position: 63.7861473617779% 84.59781917379944%;
+}
+
+.icon--svg--005-calendar {
+    width: 98px;
+    height: 98px;
+    background-position: 67.47953435974465% 84.56606664113366%;
+}
+
+.icon--svg--005-diploma {
+    width: 552px;
+    height: 552px;
+    background-position: 74.96695337256678% 25.591098748261473%;
+}
+
+.icon--svg--006-badge {
+    width: 548px;
+    height: 548px;
+    background-position: 99.77496610935381% 76.6071263304026%;
+}
+
+.icon--svg--006-machine {
+    width: 552px;
+    height: 552px;
+    background-position: 0 76.77422345850718%;
+}
+
+.icon--svg--007-square {
+    width: 552.02px;
+    height: 552.02px;
+    background-position: 0 0;
+}
+
+.icon--svg--007-title {
+    width: 552px;
+    height: 552px;
+    background-position: 49.97736532367587% 76.77422345850718%;
+}
+
+.icon--svg--008-pin {
+    width: 552px;
+    height: 552px;
+    background-position: 74.96604798551381% 76.77422345850718%;
+}
+
+.icon--svg--008-savings {
+    width: 552px;
+    height: 552px;
+    background-position: 99.9556360344047% 0;
+}
+
+.icon--svg--009-technology {
+    width: 552px;
+    height: 552px;
+    background-position: 24.988682661837935% 76.77422345850718%;
+}
+
+.icon--svg--010-hand-phones {
+    width: 552px;
+    height: 552px;
+    background-position: 74.96695337256678% 51.182197496522946%;
+}
+
+.icon--svg--011-mechanics {
+    width: 552px;
+    height: 552px;
+    background-position: 74.96695337256678% 0;
+}
+
+.icon--svg--012-printed {
+    width: 552px;
+    height: 552px;
+    background-position: 49.97736532367587% 51.183124710245714%;
+}
+
+.icon--svg--013-paper-printer {
+    width: 552px;
+    height: 552px;
+    background-position: 24.988682661837935% 51.183124710245714%;
+}
+
+.icon--svg--014-studying {
+    width: 552px;
+    height: 552px;
+    background-position: 0 51.183124710245714%;
+}
+
+.icon--svg--015-turned-off {
+    width: 552px;
+    height: 552px;
+    background-position: 49.978270710728836% 25.591098748261473%;
+}
+
+.icon--svg--016-fireplace {
+    width: 552px;
+    height: 552px;
+    background-position: 49.978270710728836% 0;
+}
+
+.icon--svg--017-title {
+    width: 552px;
+    height: 552px;
+    background-position: 0 25.592025961984238%;
+}
+
+.icon--svg--018-savings {
+    width: 552px;
+    height: 552px;
+    background-position: 24.9895880488909% 0;
+}

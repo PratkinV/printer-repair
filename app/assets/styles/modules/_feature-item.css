@@ -1,0 +1,63 @@
+.feature-item {
+    position:relative;
+    padding-bottom: 2.5rem;
+
+    @mixin atSmall {
+      //  padding-right: 104px;
+    }
+
+    &__icon {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid $darkBlue;
+        border-radius: 50%;
+        //background-color: $mainOrange;
+        //position: absolute;
+
+        &--mainOrange {
+          background-color: $mainOrange;
+        }
+
+        &--mainBlue {
+          background-color: $mainBlue;
+        }
+
+        &--mainGreen {
+          background-color: $mainGreen;
+        }
+
+        &--mainRed {
+          background-color: $mainRed;
+        }
+
+
+        @mixin atSmall {
+            //position: absolute;
+            //right: 0;
+            float: right;
+            margin-left: 10px;
+        }
+    }
+
+
+
+    &__title {
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-top: .7em;
+        margin-bottom: 1.1rem;
+        text-align: center;
+        letter-spacing: -1px;
+
+        @mixin atSmall {
+            font-size: 1.6rem;
+            margin-top: 1em;
+            margin-right: -30px;
+            text-align: left;
+        }
+    }
+
+    & p {
+      color: #a2adb2;
+    }
+}

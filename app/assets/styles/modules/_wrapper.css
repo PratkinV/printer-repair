@@ -1,0 +1,77 @@
+.wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+    overflow: hidden;
+    max-width: 1236px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--flexed {
+      display: flex;
+      flex-wrap: wrap;
+      //justify-content: center;
+      //align-items: center;
+      //flex-flow: start;
+    }
+
+    &--left {
+      max-width: 100%;
+      padding-left: 25px;
+      //border: 1px solid black;
+      margin-right: 0;
+      margin-left: auto;
+
+      @mixin atMedium {
+        max-width: 618px;
+      }
+
+      & .larger-font {
+        font-size: 2.3rem;
+        margin-top: .9rem;        
+      }
+    }
+
+    &--right {
+      max-width: 100%;
+      //border: 1px solid black;
+      padding-left: 25px;
+      padding-right: 25px;
+
+      @mixin atMedium {
+        max-width: 618px;
+        padding-left: 50px;
+      }
+    }
+
+    &--medium {
+         max-width: 976px;
+    }
+
+    &--narrow {
+         max-width: 470px;
+    }
+
+    &--no-padding-until-large {
+        padding-left: 0;
+        padding-right: 0;
+
+        @mixin atLarge {
+             padding-left: 18px;
+             padding-right: 18px;
+        }
+    }
+
+    .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    &--b-margin {
+        margin-bottom: 1rem;
+
+        @mixin atSmall {
+            margin-bottom: 3.875rem;
+        }
+
+    }
+}

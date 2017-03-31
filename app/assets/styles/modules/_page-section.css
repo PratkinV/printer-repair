@@ -1,0 +1,50 @@
+.page-section {
+     padding: 1.2rem 0;
+     background-image: url('../../../assets/images/pattern.png');
+
+    @mixin atMedium {
+        padding: 3rem 0;
+    }
+
+    &--no-b-padding-until-large {
+        padding-bottom: 0;
+
+        @mixin atLarge {
+            padding-bottom: 4.5rem;
+        }
+    }
+
+    &--blue {
+        background-color: $darkBlue;
+        color: #FFF;
+    }
+
+    &--red {
+        background-color: $darkRed;
+        color: #FFF;
+    }
+
+    &--mainPurple {
+        background-color: $mainPurple;
+        color: #FFF;
+    }
+
+    &--half {
+      width: 100%;
+
+      @mixin atMedium {
+        width: 50%;
+      }
+    }
+
+    &--testimonials {
+        background-color: #e0e6ef;
+
+        @mixin atLarge {
+            &.lazyloaded {
+              background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
+              background-size: cover;
+            }
+        }
+    }
+}

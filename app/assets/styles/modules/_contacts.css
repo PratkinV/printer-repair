@@ -1,0 +1,26 @@
+.contacts-container {
+
+  display: block;
+  //border: 1px solid black;
+  //justify-content: center;
+  //align-items: center;
+
+  @mixin atMedium {
+    display: flex;
+  }
+
+  p {
+      font-weight: 300;
+      line-height: 1.65;
+      margin: 0 0 0 0;
+
+
+      @mixin atSmall {
+          font-size: 1.125rem;
+      }
+  }
+
+  p:last-child {
+    margin-bottom: 3.3rem;
+  }
+}
