@@ -1,8 +1,8 @@
-.contacts {
+.testimonials {
 
   &-container {
-    display: block; 
-    
+    display: block;
+    //border: 3px solid pink;
     
 
     @mixin atMedium {

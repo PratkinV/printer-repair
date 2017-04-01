@@ -17,6 +17,7 @@
     &--left {
       max-width: 100%;
       padding-left: 25px;
+      padding-right: 25px;
       //border: 1px solid black;
       margin-right: 0;
       margin-left: auto;
@@ -26,8 +27,28 @@
       }
 
       & .larger-font {
-        font-size: 2.3rem;
+        font-size: 1.5rem;
         margin-top: .9rem;        
+        
+        @mixin atMedium {
+          font-size: 1.8rem;
+          margin-top: .9rem;
+        }
+        
+        @mixin atLarge {
+          font-size: 2.3rem;
+          margin-top: .9rem;
+        }
+      }
+    }
+  
+    &--middle {
+        max-width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+      
+       @mixin atMedium {          
+          padding-left: 50px;
       }
     }
 
