@@ -20,7 +20,7 @@
     }
 
     &--mainRed {
-        background-color: $mainRed;
+        background-color: $mainRed; 
         color: #FFF;
     }
 
@@ -57,6 +57,11 @@
     
     &--darkGreen {
         background-color: $darkGreen;
+        color: #FFF;
+    }
+  
+    &--mainGrey {
+        background-color: $mainGrey;
         color: #FFF;
     }
 

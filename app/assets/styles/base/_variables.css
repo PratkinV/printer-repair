@@ -1,12 +1,15 @@
 $mainGrey: #9c9a94;
-$mainBlue: #6d98a9;
+//$mainBlue: #6d98a9;
 $darkBlue: #173440;
 $mainGreen: #65948c;
-$darkGreen: #487a65;
-$mainRed: #c96466;
+//$darkGreen: #487a65;
+//$mainRed: #c96466;
 $darkRed: #d94d44;
-$mainPink: #c96466;
+//$mainPink: #c96466;
 $mainOrange: #eb7f43;
 $mainBrown: #cab897;
 $mainPurple: #3f5063;
-
+$mainBlue: rgba(109, 152, 169, 0.90);
+$darkGreen: rgba(72, 122, 101, 0.90);
+$mainRed: rgba(201, 100, 102, 0.90);
+$mainPink: rgba(201, 100, 102, 1);
