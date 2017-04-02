@@ -19,11 +19,17 @@
         color: #FFF;
     }
 
-    &--red {
+    &--mainRed {
         background-color: $mainRed;
         color: #FFF;
     }
 
+    &--mainPink {
+        background-color: $mainPink;
+        color: #FFF;
+        background-image: none;
+    }
+  
     &--mainPurple {
         background-color: $mainPurple;
         color: #FFF;
@@ -39,13 +45,18 @@
         color: #FFF;
     }
   
-    &--mainOrange {
-        background-color: $mainOrange;
+    &--mainBrown {
+        background-color: $mainBrown;
         color: #FFF;
     }
   
     &--mainGreen {
         background-color: $mainGreen;
+        color: #FFF;
+    }
+    
+    &--darkGreen {
+        background-color: $darkGreen;
         color: #FFF;
     }
 

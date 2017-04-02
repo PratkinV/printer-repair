@@ -515,6 +515,8 @@ html {
 
   .wrapper--left {
     max-width: 618px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -549,6 +551,7 @@ html {
 
   .wrapper--middle {
     padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -564,6 +567,7 @@ html {
   .wrapper--right {
     max-width: 618px;
     padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -932,9 +936,15 @@ html {
   color: #FFF;
 }
 
-.page-section--red {
+.page-section--mainRed {
   background-color: #c96466;
   color: #FFF;
+}
+
+.page-section--mainPink {
+  background-color: #c96466;
+  color: #FFF;
+  background-image: none;
 }
 
 .page-section--mainPurple {
@@ -952,13 +962,18 @@ html {
   color: #FFF;
 }
 
-.page-section--mainOrange {
-  background-color: #eb7f43;
+.page-section--mainBrown {
+  background-color: #cab897;
   color: #FFF;
 }
 
 .page-section--mainGreen {
   background-color: #65948c;
+  color: #FFF;
+}
+
+.page-section--darkGreen {
+  background-color: #487a65;
   color: #FFF;
 }
 
@@ -1220,6 +1235,7 @@ html {
 
 .headline--small {
   font-size: 1.2rem;
+  margin-top: 3rem;
 }
 
 @media (min-width: 530px) {
@@ -1758,4 +1774,17 @@ html {
 
 .testimonials__icon--no-r-margin {
   //margin-right: 0;
+}
+
+.site-footer {
+    background-color: #cab897;
+    color: #FFF;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.site-footer__text {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 300;
 }

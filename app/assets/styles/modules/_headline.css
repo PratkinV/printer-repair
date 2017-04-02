@@ -31,6 +31,7 @@
 
     &--small {
         font-size: 1.2rem;
+        margin-top: 3rem;
         @mixin atSmall {
             font-size: 1.875rem;
         }

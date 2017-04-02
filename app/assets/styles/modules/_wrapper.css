@@ -24,6 +24,8 @@
 
       @mixin atMedium {
         max-width: 618px;
+        padding-left: 50px;
+        padding-right: 50px; 
       }
 
       & .larger-font {
@@ -49,6 +51,7 @@
       
        @mixin atMedium {          
           padding-left: 50px;
+          padding-right: 50px; 
       }
     }
 
@@ -61,6 +64,7 @@
       @mixin atMedium {
         max-width: 618px;
         padding-left: 50px;
+        padding-right: 50px; 
       }
     }
 
