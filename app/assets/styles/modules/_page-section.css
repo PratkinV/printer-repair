@@ -20,7 +20,7 @@
     }
 
     &--mainRed {
-        background-color: $mainRed; 
+        background-color: $mainRed;
         color: #FFF;
     }
 
@@ -29,37 +29,42 @@
         color: #FFF;
         background-image: none;
     }
-  
+
     &--mainPurple {
         background-color: $mainPurple;
         color: #FFF;
     }
-    
+
     &--mainBlue {
         background-color: $mainBlue;
         color: #FFF;
     }
-  
+
     &--darkRed {
         background-color: $darkRed;
         color: #FFF;
     }
-  
+
     &--mainBrown {
         background-color: $mainBrown;
         color: #FFF;
     }
-  
+
     &--mainGreen {
         background-color: $mainGreen;
         color: #FFF;
     }
-    
+
     &--darkGreen {
         background-color: $darkGreen;
         color: #FFF;
     }
-  
+
+    &--lightOrange {
+        background-color: $lightOrange;
+        color: #FFF;
+    }
+
     &--mainGrey {
         background-color: $mainGrey;
         color: #FFF;
@@ -72,11 +77,11 @@
         width: 50%;
       }
     }
-  
+
     &--third {
       width: 100%;
 
-      @mixin atMedium {
+      @mixin atLarge {
         width: 33.33%;
       }
     }

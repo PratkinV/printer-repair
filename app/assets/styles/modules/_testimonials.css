@@ -3,9 +3,9 @@
   &-container {
     display: block;
     //border: 3px solid pink;
-    
 
-    @mixin atMedium {
+
+    @mixin atLarge {
       display: flex;
     }
 
@@ -16,29 +16,29 @@
 
         @mixin atSmall {
             font-size: 1.125rem;
-        }    
-      
+        }
+
     }
 
     p:last-child {
       margin-bottom: 3.3rem;
-    } 
+    }
 
   }
-  
+
   &__icon {
-    float: left;   
+    float: left;
     width: 70px;
     margin-right: 40px;
     //border: 1px solid black;
     position: relative;
     top: -15px;
-    
+
     @mixin atSmall {
       margin-right: 55px;
       top: -10px;
     }
-    
+
     &--no-r-margin {
       //margin-right: 0;
     }

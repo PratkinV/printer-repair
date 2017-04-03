@@ -462,11 +462,17 @@ template {
 
 //$mainBlue: #6d98a9;
 
+//$mainGreen: #65948c;
+
 //$darkGreen: #487a65;
 
 //$mainRed: #c96466;
 
+//$darkRed: #d94d44;
+
 //$mainPink: #c96466;
+
+//$middleBlue: rgba(23, 52, 64, 0.6);
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -483,7 +489,7 @@ img {
 }
 
 a {
-    color: rgba(109, 152, 169, 0.90);
+    color: rgba(109, 152, 169, 0.95);
 }
 
 html {
@@ -519,12 +525,16 @@ html {
   margin-left: auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
   .wrapper--left {
     max-width: 618px;
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .wrapper--left--no-l-padding {
+    padding-left: 25px;
   }
 }
 
@@ -555,7 +565,7 @@ html {
   padding-right: 25px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
   .wrapper--middle {
     padding-left: 50px;
@@ -570,7 +580,7 @@ html {
   padding-right: 25px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
   .wrapper--right {
     max-width: 618px;
@@ -627,7 +637,7 @@ html {
 }
 
 .site-header--is-expanded {
-  background-color: rgba(rgba(109, 152, 169, 0.90), 0.55);
+  background-color: rgba(rgba(109, 152, 169, 0.95), 0.55);
 }
 
 @media (min-width: 800px) {
@@ -893,7 +903,7 @@ html {
   display: block;
   padding: 5px 8px;
   font-size: 0.9rem;
-  background-color: rgba(rgba(109, 152, 169, 0.90), .9);
+  background-color: rgba(rgba(109, 152, 169, 0.95), .9);
 }
 
 @media (min-width: 800px) {
@@ -961,12 +971,12 @@ html {
 }
 
 .page-section--mainBlue {
-  background-color: rgba(109, 152, 169, 0.90);
+  background-color: rgba(109, 152, 169, 0.95);
   color: #FFF;
 }
 
 .page-section--darkRed {
-  background-color: #d94d44;
+  background-color: rgba(217, 77, 68, 0.9);
   color: #FFF;
 }
 
@@ -981,7 +991,12 @@ html {
 }
 
 .page-section--darkGreen {
-  background-color: rgba(72, 122, 101, 0.90);
+  background-color: rgba(72, 122, 101, 1);
+  color: #FFF;
+}
+
+.page-section--lightOrange {
+  background-color: rgba(235, 127, 67, 0.87);
   color: #FFF;
 }
 
@@ -1005,7 +1020,7 @@ html {
   width: 100%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
   .page-section--third {
     width: 33.33%;
@@ -1025,7 +1040,7 @@ html {
 }
 
 .btn {
-  //background-color: rgba(109, 152, 169, 0.90);
+  //background-color: rgba(109, 152, 169, 0.95);
   border: 1px solid #FFF;
   color: #FFF;
   text-decoration: none;
@@ -1069,7 +1084,7 @@ html {
 }
 
 .large-hero {
-    //border-bottom: 10px solid rgba(109, 152, 169, 0.90);
+    //border-bottom: 10px solid rgba(109, 152, 169, 0.95);
 	  position: relative;
     padding-top: 10.5rem;
     padding-bottom: 9rem;
@@ -1122,7 +1137,7 @@ html {
 
 .large-hero__subtitle {
   font-weight: 300;
-  color: rgba(109, 152, 169, 0.90);
+  color: rgba(109, 152, 169, 0.95);
   font-size: 1.5rem;
   margin: 0;
 }
@@ -1211,7 +1226,7 @@ html {
     color: #FFF;
     margin-bottom: 1.3em;
     margin-top: 1.3em;
-  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 @media (min-width: 530px) {
@@ -1482,7 +1497,7 @@ html {
 }
 
 .feature-item__icon--mainBlue {
-  background-color: rgba(109, 152, 169, 0.90);
+  background-color: rgba(109, 152, 169, 0.95);
 }
 
 .feature-item__icon--mainGreen {
@@ -1533,7 +1548,7 @@ html {
 }
 
 .row--t-padding {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .row--gutters {
@@ -1742,7 +1757,7 @@ html {
   //border: 3px solid pink;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
   .testimonials-container {
     display: -webkit-box;
@@ -1790,8 +1805,9 @@ html {
 }
 
 .site-footer {
-    background-color: #cab897;
-    color: #FFF;
+    //background-color: #9c9a94;
+    background-image: none;
+    color: #000;
     padding: 1rem 0;
     text-align: center;
 }

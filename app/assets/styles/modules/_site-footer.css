@@ -1,12 +1,13 @@
 .site-footer {
-    background-color: $mainBrown;
-    color: #FFF;
+    //background-color: $mainGrey;
+    background-image: none;
+    color: #000;
     padding: 1rem 0;
     text-align: center;
 
     &__text {
         display: block;
         margin-bottom: 1rem;
-        font-weight: 300;       
+        font-weight: 300;
     }
 }

@@ -3,11 +3,11 @@
     @mixin clearfix;
 
     &--t-padding {
-        padding-top: 80px;
+        padding-top: 40px;
     }
 
     &--gutters {
-        padding-right: -65px;        
+        padding-right: -65px;
     }
 
     &--gutters-large {
@@ -19,11 +19,11 @@
     }
 
     &--gutters > div {
-        padding-right: 65px;        
+        padding-right: 65px;
     }
-    
+
     &--gutters-no-for-small > div {
-        padding-right: 65px;        
+        padding-right: 65px;
     }
 
      &--gutters-large > div {
@@ -42,9 +42,9 @@
         &--gutters-no-for-small > div {
             padding-right: 0px;
         }
-    } 
-   
-    
+    }
+
+
     @mixin atMedium {
 
         &__b-margin-until-medium {
