@@ -4,6 +4,10 @@
 
     &--t-padding {
         padding-top: 40px;
+
+        @mixin atMedium {
+          padding-top: 25px;
+        }
     }
 
     &--gutters {

@@ -1262,14 +1262,17 @@ html {
 }
 
 .headline--small {
-  font-size: 1.2rem;
-  margin-top: 3rem;
+  font-size: 1.3rem;
+  margin-bottom: 3.2rem;
+  //border:1px solid black;
+  position: relative;
+  top: 14px;
 }
 
 @media (min-width: 530px) {
 
   .headline--small {
-    font-size: 1.875rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -1551,6 +1554,13 @@ html {
   padding-top: 40px;
 }
 
+@media (min-width: 800px) {
+
+  .row--t-padding {
+    padding-top: 25px;
+  }
+}
+
 .row--gutters {
   padding-right: -65px;
 }
@@ -1743,7 +1753,7 @@ html {
 @media (min-width: 530px) {
 
   .contacts__icon {
-    margin-right: 55px;
+    margin-right: 45px;
     top: -10px;
   }
 }
