@@ -2,20 +2,24 @@
   position: absolute;
   z-index: 2;
   width: 100%;
-  padding: 40px 0;
-  transition: background-color 0.3s ease-out;
+  padding: 40px 0 20px 0;
+  transition: all 0.5s ease-out;  
   text-transform: uppercase;
 
   &--is-expanded {
-      background-color: rgba($mainBlue, 0.55);
+      background-color: rgba(255, 255, 255, 0.95);
   }
 
   @mixin atMedium {
        background-color: transparent;
        position: fixed;
 
-       &--dark {
-         background-color: rgba(23, 51, 72, 0.85);
+       &--light {
+         background-color: rgba(255, 255, 255, 0.95);
+         padding-top: 20px;
+         box-shadow: 2px 0 4px #4e4e4e;
+         //border-bottom: 1px solid rgba(78, 78, 78, 0.7);
+         //color: #4e4e4e;
        }
   }
 
@@ -31,16 +35,21 @@
       background-color: transparent;
       color: #FFF;
       text-transform: none;
-      font-size: 2.2rem;
-      font-weight: 500;
+      font-size: 1.7rem;
+      font-weight: 400;
       padding: 31px 0;
       top: 0;
       left: 50%;
       transform-origin: 50% 0;
       transform: translateX(-50%) scale(.8);
-      transition: transform .3s ease-out;
+      transition: padding 0.5s ease-out;
       //width: 80%;
       //border: 1px solid black;
+    
+      @mixin atLarge {
+        font-size: 2.2rem; 
+        padding: 31px 0;        
+      }
 
       & img {
         width: 65px;
@@ -49,11 +58,20 @@
         //border: 1px solid red;
         display: block;
         top: -6px;
+        //transition: all 0.5s ease-out;
         
         @mixin atSmall {
           width: 35px;
           top: 6px;
           display: inline;
+        }
+        
+        @mixin atMedium {
+          width: 30px;
+        }
+        
+        @mixin atLarge {
+          width: 35px;
         }
       }
 
@@ -67,8 +85,14 @@
           left: auto;
           transform: translateX(0);
 
-          .site-header--dark & {
-            transform: scale(.554);
+          .site-header--light & {
+            //transform: scale(.554);
+            color: #4e4e4e;
+            padding: 12px 0;
+            
+            @mixin atLarge {
+              padding: 12px 0;
+            }
           }
       }
 

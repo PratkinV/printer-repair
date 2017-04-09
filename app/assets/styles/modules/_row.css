@@ -15,7 +15,7 @@
     }
 
     &--gutters-large {
-        margin-right: -100px;
+        margin-right: -80px;
     }
 
     &--gutters-small {
@@ -31,7 +31,7 @@
     }
 
      &--gutters-large > div {
-        padding-right: 100px;
+        padding-right: 80px;
     }
 
      &--gutters-small > div {

@@ -476,7 +476,7 @@ template {
 
 body {
 	font-family: 'Roboto', sans-serif;
-	color: #333;
+	color: #333;  
 }
 
 img {
@@ -486,6 +486,7 @@ img {
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -500,7 +501,7 @@ html {
     padding-left: 25px;
     padding-right: 25px;
     overflow: hidden;
-    max-width: 1236px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -528,7 +529,7 @@ html {
 @media (min-width: 1010px) {
 
   .wrapper--left {
-    max-width: 618px;
+    max-width: 650px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -583,7 +584,7 @@ html {
 @media (min-width: 1010px) {
 
   .wrapper--right {
-    max-width: 618px;
+    max-width: 650px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -630,14 +631,14 @@ html {
   position: absolute;
   z-index: 2;
   width: 100%;
-  padding: 40px 0;
-  -webkit-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out;
+  padding: 40px 0 20px 0;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;  
   text-transform: uppercase;
 }
 
 .site-header--is-expanded {
-  background-color: rgba(rgba(109, 152, 169, 0.95), 0.55);
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 @media (min-width: 800px) {
@@ -647,8 +648,12 @@ html {
     position: fixed;
   }
 
-  .site-header--dark {
-    background-color: rgba(23, 51, 72, 0.85);
+  .site-header--light {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding-top: 20px;
+    box-shadow: 2px 0 4px #4e4e4e;
+    //border-bottom: 1px solid rgba(78, 78, 78, 0.7);
+    //color: #4e4e4e;
   }
 }
 
@@ -664,8 +669,8 @@ html {
   background-color: transparent;
   color: #FFF;
   text-transform: none;
-  font-size: 2.2rem;
-  font-weight: 500;
+  font-size: 1.7rem;
+  font-weight: 400;
   padding: 31px 0;
   top: 0;
   left: 50%;
@@ -673,12 +678,18 @@ html {
           transform-origin: 50% 0;
   -webkit-transform: translateX(-50%) scale(.8);
           transform: translateX(-50%) scale(.8);
-  -webkit-transition: -webkit-transform .3s ease-out;
-  transition: -webkit-transform .3s ease-out;
-  transition: transform .3s ease-out;
-  transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+  -webkit-transition: padding 0.5s ease-out;
+  transition: padding 0.5s ease-out;
   //width: 80%;
   //border: 1px solid black;
+}
+
+@media (min-width: 1010px) {
+
+  .site-header__logo {
+    font-size: 2.2rem;
+    padding: 31px 0;
+  }
 }
 
 .site-header__logo img {
@@ -688,6 +699,7 @@ html {
   //border: 1px solid red;
   display: block;
   top: -6px;
+  //transition: all 0.5s ease-out;
 }
 
 @media (min-width: 530px) {
@@ -696,6 +708,20 @@ html {
     width: 35px;
     top: 6px;
     display: inline;
+  }
+}
+
+@media (min-width: 800px) {
+
+  .site-header__logo img {
+    width: 30px;
+  }
+}
+
+@media (min-width: 1010px) {
+
+  .site-header__logo img {
+    width: 35px;
   }
 }
 
@@ -713,9 +739,17 @@ html {
             transform: translateX(0);
   }
 
-  .site-header--dark .site-header__logo {
-    -webkit-transform: scale(.554);
-            transform: scale(.554);
+  .site-header--light .site-header__logo {
+    //transform: scale(.554);
+    color: #4e4e4e;
+    padding: 12px 0;
+  }
+
+  @media (min-width: 1010px) {
+
+    .site-header--light .site-header__logo {
+      padding: 12px 0;
+    }
   }
 }
 
@@ -871,7 +905,7 @@ html {
 @media (min-width: 800px) {
 
   .primary-nav li {
-    padding-right: 14px;
+    padding-right: 17px;
     float: left;
     display: block;
   }
@@ -880,7 +914,7 @@ html {
 @media (min-width: 1010px) {
 
   .primary-nav li {
-    padding-right: 23px;
+    padding-right: 40px;
   }
 }
 
@@ -891,7 +925,14 @@ html {
 @media (min-width: 800px) {
 
   .primary-nav li:last-child {
-    padding-right: 23px;
+    padding-right: 16px;
+  }
+}
+
+@media (min-width: 1010px) {
+
+  .primary-nav li:last-child {
+    padding-right: 40px;
   }
 }
 
@@ -904,18 +945,33 @@ html {
   padding: 5px 8px;
   font-size: 0.9rem;
   background-color: rgba(rgba(109, 152, 169, 0.95), .9);
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s ease-out;
+  transition: border-bottom 0.2s ease-out;
+}
+
+.primary-nav a.scrolled {
+  color: #4e4e4e;
+}
+
+.primary-nav a.scrolled:hover {
+  border-bottom: 2px solid #4e4e4e;
+}
+
+.primary-nav a:hover {
+  border-bottom: 2px solid #FFF;
 }
 
 @media (min-width: 800px) {
 
   .primary-nav a {
-    padding: 11px 0;
+    padding: 11px 0 10px 0;
     font-size: 1rem;
     background-color: transparent;
   }
 
   .primary-nav a.is-current-link {
-    color: #fabb69;
+    //color: rgba(0, 0, 0, 0.77);
   }
 }
 
@@ -1049,8 +1105,28 @@ html {
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
 
+}
+
+@media (min-width: 1010px) {
+
+  .btn {
+    font-size: 1.1rem;
+  }
+}
+
+.btn.scrolled {
+  //color: #4e4e4e;
+  //border: 1px solid #4e4e4e;
+  background-color: #446876;
+}
+
+.btn.scrolled:hover {
+  background-color: rgba(109, 152, 169, 0.95);
+  color: #FFF;
 }
 
 .btn:hover {
@@ -1085,7 +1161,7 @@ html {
 
 .large-hero {
     //border-bottom: 10px solid rgba(109, 152, 169, 0.95);
-	  position: relative;
+	   position: relative;
     padding-top: 10.5rem;
     padding-bottom: 9rem;
     background-color: #9c9a94;
@@ -1116,7 +1192,7 @@ html {
   color: #FFF;
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
   letter-spacing: 0;
-  //font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   //border: 1px solid red;
   margin: 0;
 }
@@ -1160,6 +1236,7 @@ html {
   //border: 1px solid red;
   //margin-left: auto;
   //margin-right: auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .large-hero__description p {
@@ -1263,7 +1340,7 @@ html {
 
 .headline--small {
   font-size: 1.3rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 3.4rem;
   //border:1px solid black;
   position: relative;
   top: 14px;
@@ -1566,7 +1643,7 @@ html {
 }
 
 .row--gutters-large {
-  margin-right: -100px;
+  margin-right: -80px;
 }
 
 .row--gutters-small {
@@ -1582,7 +1659,7 @@ html {
 }
 
 .row--gutters-large > div {
-  padding-right: 100px;
+  padding-right: 80px;
 }
 
 .row--gutters-small > div {

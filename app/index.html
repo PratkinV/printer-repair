@@ -4,12 +4,16 @@
   <meta charset="UTF-8">
   <title>Алексей Уваров</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,600,700,900' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
   <meta name="keywords" content="Ремонт принтеров Ricoh, HP, hewlett packard, Kyocera, сломался принтер, починка принтера, дешевый ремонт.">
   <meta name="description" content="Индивидуальный предприниматель предлагает услуги по ремонту принтеров Ricoh, HP, hewlett packard, Kyocera">
+  <!-- build:css assets/styles/styles.css -->
   <link rel="stylesheet" href="temp/styles/styles.css">
-  <script scr="/temp/scripts/Vendor.js"></script>
+  <!-- endbuild -->
+  <!-- build:js assets/scripts/Vendor.js -->
+  <script src="/temp/scripts/Vendor.js"></script>
+  <!-- endbuild -->   
 </head>
 <body>
  <header class="site-header">
@@ -42,7 +46,7 @@
         <h1 class="large-hero__title">Ремонт принтеров в Москве и Московской области недорого</h1>
         <!--<h2 class="large-hero__subtitle">One trip away.</h2>-->
         <div class="large-hero__description"><p>Индивидуальный предприниматель Уваров Алексей Сергеевич предлагает услуги для юридических лиц по обслуживанию, диагностике и ремонту копировально-множительной техники Ricoh, HP, Kyocera.</p></div>
-        <p><a href="#" class="btn btn--white open-modal">Преимущества</a></p>
+        <p><a href="#features" class="btn btn--white open-modal">Преимущества</a></p>
       </div>
       <div class="large-hero__picture"><img src="assets/images/icons/svg/003-copy-machine.svg"></div>
     </div>
@@ -52,8 +56,8 @@
    <div class="wrapper">
      <h2 class="headline">Качественные услуги по ремонту техники на выезде</h2>
      <h3 class="large-hero__description">Мы предлагаем ремонт и обслуживание: всего модельного ряда Ricoh (включая дупликаторы и широкоформатные инженерные системы), лазерных принтеров, МФУ и плоттеров производства HP, лазерной техники компании Kyocera.</h3>
-     <h3 class="large-hero__description">Работаем с юридическими лицами и ИП, применяя УСН. Помимо разовых выездов заключаем договора на ежемесячное (или квартальное) обслуживание КМТ.</h3>
-     <div id="features" class="row row--gutters-large row--t-padding generic-content-container">
+     <h3 id="features" class="large-hero__description" data-matching-link="#features-link">Работаем с юридическими лицами и ИП, применяя УСН. Помимо разовых выездов заключаем договора на ежемесячное (или квартальное) обслуживание КМТ.</h3>
+     <div class="row row--gutters-large row--t-padding generic-content-container">
           <div class="row__medium-6">
 
             <div class="feature-item">
@@ -112,7 +116,7 @@
 
 <div id="testimonials" class="testimonials page-section page-section--mainBrown" data-matching-link="#testimonilas-link">
  <div class="wrapper">
-   <div class="row row--gutters-small row--t-padding generic-content-container">
+   <div class="row row--gutters-large row--t-padding generic-content-container">
        <div class="row__large-4">
          <div class="testimonials--left">
              <img class="contacts__icon" src="assets/images/icons/svg/avatars/007-people-1.svg">
@@ -121,7 +125,7 @@
              принтер HP LaserJet P2015d. Безуспешно попытавшись реанимировать его самостоятельно, обратился в службу ремонта принтеров Уварова Алексея.
              Несмотря на выходной день, трубку сняли сразу же. Через час мастер был уже у меня. Еще через 20 минут принтер заработал. Ура!
              Поэтому, смело рекомендую вам воспользоваться услугами Алексея и думаю, вы не пожалеете.</p>
-          </div>
+         </div>
        </div>
 
 
@@ -133,7 +137,7 @@
              ксерокс. Мы даже заключили с ним договор, чтобы в первую очередь обслуживали наши вызовы. Впечатления от работы мастера только самые лучшие.
              Быстро чинит, отвечает на все вопросы, подсказывает как не «убивать» технику. Никакого негатива. Приятно доверять профессионалам свою
              технику. Всем рекомендую! Спасибо огромное!</p>
-          </div>
+         </div>
        </div>
 
 
@@ -145,7 +149,7 @@
              попробовать обратиться к нему, так как раннее ещё не обращалась. В итоге, неполадки и проблемы в работе принтера исправили за пару дней.
              Алексей очень вежливый, работает оперативно и качественно. В целом, мне определённо понравилась работа этого специалиста по нескольким причинам
              - довольно быстрые сроки обслуживания и приемлемые расценки на оказание ремонтных услуг.</p>
-          </div>
+         </div>
         </div>
       </div>
   </div>
@@ -158,6 +162,9 @@
   </div>
 </footer>
 
+<!-- build:js assets/scripts/App.js -->
+<script src="/temp/scripts/App.js"></script>
+<!-- endbuild -->
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 .large-hero {
     //border-bottom: 10px solid $mainBlue;
-	  position: relative;
+	   position: relative;
     padding-top: 10.5rem;
     padding-bottom: 9rem;
     background-color: $mainGrey;
@@ -29,9 +29,9 @@
 		color: #FFF;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
     letter-spacing: 0;
-    //font-family: 'Roboto', sans-serif;
-		//border: 1px solid red;
-		margin: 0;
+    font-family: 'Roboto', sans-serif;
+		  //border: 1px solid red;
+		  margin: 0;
 
         @mixin atSmall {
           font-size: 2.9rem;
@@ -60,11 +60,12 @@
 		font-weight: 400;
 		//text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 		width: 100%;
-    display: block;
-    overflow: auto;
-    //border: 1px solid red;
+  display: block;
+  overflow: auto;
+  //border: 1px solid red;
 		//margin-left: auto;
 		//margin-right: auto;
+   font-family: 'Roboto', sans-serif;
 
     p {
       margin: 40px 0;

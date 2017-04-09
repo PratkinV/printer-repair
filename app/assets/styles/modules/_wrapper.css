@@ -2,7 +2,7 @@
     padding-left: 25px;
     padding-right: 25px;
     overflow: hidden;
-    max-width: 1236px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
 
@@ -25,7 +25,7 @@
 
 
       @mixin atLarge {
-        max-width: 618px;
+        max-width: 650px;
         padding-left: 50px;
         padding-right: 50px;
 
@@ -68,7 +68,7 @@
       padding-right: 25px;
 
       @mixin atLarge {
-        max-width: 618px;
+        max-width: 650px;
         padding-left: 50px;
         padding-right: 50px;
       }

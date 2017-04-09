@@ -23,25 +23,28 @@
         display: inline-block;
         padding-right: 7px;
         @mixin atMedium {
-            padding-right: 14px;
+            padding-right: 17px;
             float: left;
             display: block;
         }
 
         @mixin atLarge {
-          padding-right: 23px;
+          padding-right: 40px;
         }
     }
 
     li:last-child {
         padding-right: 0;
         @mixin atMedium {
-            padding-right: 23px;
+            padding-right: 16px;
+        }
+        @mixin atLarge {
+            padding-right: 40px;
         }
     }
 
-    a {
-        color: #FFF;
+    a {       
+        color: #FFF;        
         text-decoration: none;
         //text-shadow: 0 2px rgba(0, 0, 0, 0.1);
         font-weight: 900;
@@ -49,14 +52,30 @@
         padding: 5px 8px;
         font-size: 0.9rem;
         background-color: rgba($mainBlue, .9);
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.2s ease-out;  
+            
+        &.scrolled {          
+          color: #4e4e4e;
+          
+          
+          
+          &:hover {
+            border-bottom: 2px solid #4e4e4e;
+          }
+        }
+      
+        &:hover {
+          border-bottom: 2px solid #FFF;
+        }
 
         @mixin atMedium {
-            padding: 11px 0;
+            padding: 11px 0 10px 0;
             font-size: 1rem;
             background-color: transparent;
 
             &.is-current-link {
-              color: #fabb69;
+              //color: rgba(0, 0, 0, 0.77);
             }
         }
 
