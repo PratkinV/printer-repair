@@ -1,6 +1,6 @@
 .feature-item {
     position:relative;
-    padding-bottom: 2.5rem;
+    padding-bottom: 0.7rem;      
 
     @mixin atSmall {
       //  padding-right: 104px;
@@ -11,6 +11,8 @@
         margin: 0 auto;
         border: 1px solid $darkBlue;
         border-radius: 50%;
+        float: right;
+        margin-left: 5px;
         //background-color: $mainOrange;
         //position: absolute;
 
@@ -30,23 +32,16 @@
           background-color: $mainRed;
         }
 
-
-        @mixin atSmall {
-            //position: absolute;
-            //right: 0;
-            float: right;
-            margin-left: 10px;
-        }
     }
 
 
 
     &__title {
-        font-size: 1.4rem;
+        font-size: 1.35rem;
         font-weight: 400;
         margin-top: .7em;
         margin-bottom: 1.1rem;
-        text-align: center;
+        //text-align: center;
         letter-spacing: -1px;
 
         @mixin atSmall {

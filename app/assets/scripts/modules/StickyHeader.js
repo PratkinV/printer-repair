@@ -25,7 +25,7 @@ class StickyHeader {
   }
 
   addSmoothScrolling() {
-    this.headerLinks.smoothScroll(); 
+    this.headerLinks.smoothScroll();
     this.featuresBtn.smoothScroll();
   }
 
@@ -34,11 +34,13 @@ class StickyHeader {
     new Waypoint({
       element: this.headerTriggerElement[0],
       handler: function(direction) {
-        if (direction == "down") {
+        if (direction == "down" && !that.siteHeader.hasClass('site-header--is-expanded')) {
           that.siteHeader.addClass("site-header--light");
           that.headerLinks.addClass("scrolled");
           that.headerBtn.addClass("scrolled");
-          that.headerLogo.attr("src", "assets/images/icons/svg/002-printer-2.svg");
+          if ($(window).width() > 800) {
+            that.headerLogo.attr("src", "assets/images/icons/svg/002-printer-2.svg");
+          }
         } else {
           that.siteHeader.removeClass("site-header--light");
           that.headerLinks.removeClass("scrolled");
@@ -78,7 +80,7 @@ class StickyHeader {
          offset: "-40%"
         });
     });
-  } 
+  }
 
 }
 

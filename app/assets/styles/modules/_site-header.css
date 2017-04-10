@@ -3,11 +3,13 @@
   z-index: 2;
   width: 100%;
   padding: 40px 0 20px 0;
-  transition: all 0.5s ease-out;  
+  transition: all 0.5s ease-out;
   text-transform: uppercase;
 
   &--is-expanded {
-      background-color: rgba(255, 255, 255, 0.95);
+      background-color: rgba(78, 78, 78, 0.95);
+      //background-color: rgba(255, 255, 255, 0.95);
+      //box-shadow: 2px 0 4px #4e4e4e;
   }
 
   @mixin atMedium {
@@ -45,31 +47,33 @@
       transition: padding 0.5s ease-out;
       //width: 80%;
       //border: 1px solid black;
-    
+
       @mixin atLarge {
-        font-size: 2.2rem; 
-        padding: 31px 0;        
+        font-size: 2.2rem;
+        padding: 31px 0;
       }
 
       & img {
         width: 65px;
-        position: relative;        
+        position: relative;
         margin: 0 auto;
         //border: 1px solid red;
         display: block;
         top: -6px;
         //transition: all 0.5s ease-out;
-        
+/*
         @mixin atSmall {
           width: 35px;
           top: 6px;
           display: inline;
         }
-        
+*/
         @mixin atMedium {
           width: 30px;
+          display: inline;
+          top: 6px;
         }
-        
+
         @mixin atLarge {
           width: 35px;
         }
@@ -89,7 +93,7 @@
             //transform: scale(.554);
             color: #4e4e4e;
             padding: 12px 0;
-            
+
             @mixin atLarge {
               padding: 12px 0;
             }
