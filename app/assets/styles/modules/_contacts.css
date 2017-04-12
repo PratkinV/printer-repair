@@ -28,7 +28,7 @@
 
   &__icon {
     float: left;
-    width: 70px;
+    width: 60px;
     margin-right: 40px;
     //border: 1px solid black;
     position: relative;
@@ -36,7 +36,7 @@
 
     @mixin atSmall {
       margin-right: 45px;
-      top: -10px;
+      top: -5px;
     }
 
     &--no-r-margin {
