@@ -58,17 +58,14 @@
 		color: #FFF;
 		font-size: 1rem;
 		font-weight: 400;
-		//text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+    line-height: 1.4;
 		width: 100%;
-  display: block;
-  overflow: auto;
-  //border: 1px solid red;
-		//margin-left: auto;
-		//margin-right: auto;
-   font-family: 'Roboto', sans-serif;
+    display: block;
+    overflow: auto;
 
     p {
-      margin: 40px 0;
+      margin: 30px 0;
     }
 
         @mixin atSmall {
@@ -76,11 +73,12 @@
         }
 
         @mixin atMedium {
-          font-size: 1.5rem;
+          font-size: 1.32rem;
         }
 
         @mixin atLarge {
-          font-size: 1.5rem;
+          font-size: 1.32rem;
+          text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
         }
 	}
 
@@ -92,11 +90,17 @@
     //border: 1px solid blue;
     width: 250px;
     box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.2);
-    margin-top: 40px;
+    margin-top: 80px;
+    position: relative;
     left: -15px;
 
     @mixin atSmall {
         width: 390px;
+        left: 0;
+    }
+
+    @mixin atLarge {
+      margin-top: 20px;
     }
   }
 

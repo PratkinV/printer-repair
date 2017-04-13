@@ -1,6 +1,6 @@
 .feature-item {
     position:relative;
-    padding-bottom: 0.7rem;      
+    padding-bottom: 0.7rem;
 
     @mixin atSmall {
       //  padding-right: 104px;
@@ -31,10 +31,7 @@
         &--mainRed {
           background-color: $mainRed;
         }
-
     }
-
-
 
     &__title {
         font-size: 1.35rem;
