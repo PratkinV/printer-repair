@@ -1,6 +1,6 @@
-.reveal-item {
+.reveal-item {  
   opacity: 0;
-  transition: all 1.5s ease-out;
+  //transition: all 1.5s ease-out;
   //transform: scale(1.15);
 
   &--is-visible {
@@ -8,3 +8,22 @@
     //transform: scale(1);
   }
 }
+
+.duration-1-5s {
+  animation-duration: 1.5s;
+}
+
+@mixin atLarge {
+  .delay-0s {
+    animation-delay: 0s; 
+  }
+  
+  .delay-0-5s {
+    animation-delay: 0.5s;
+  }
+
+  .delay-1s {
+    animation-delay: 1s; 
+  }  
+}
+

@@ -11190,7 +11190,7 @@ var RevealOnScroll = function () {
           new Waypoint({
             element: currentItem,
             handler: function handler() {
-              (0, _jquery2.default)(currentItem).addClass("reveal-item--is-visible");
+              (0, _jquery2.default)(currentItem).addClass("animated fadeIn");
             },
             offset: that.offsetPercentage
           });
@@ -11355,7 +11355,7 @@ var _RevealOnScroll2 = _interopRequireDefault(_RevealOnScroll);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var mobileMenu = new _MobileMenu2.default();
-new _RevealOnScroll2.default((0, _jquery2.default)(".testimonials .contacts__icon, .testimonials .headline--small, .testimonials p"), "70%");
+new _RevealOnScroll2.default((0, _jquery2.default)(".testimonials--1, .testimonials--2, .testimonials--3"), "70%");
 var stickyHeader = new _StickyHeader2.default();
 
 /***/ }),

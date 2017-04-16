@@ -22,7 +22,7 @@ class RevealOnScroll {
         new Waypoint({
           element: currentItem,
           handler: function() {
-            $(currentItem).addClass("reveal-item--is-visible");
+            $(currentItem).addClass("animated fadeIn");
           },
           offset: that.offsetPercentage
         });
@@ -30,6 +30,6 @@ class RevealOnScroll {
 
     });
   }
-}
+} 
 
 export default RevealOnScroll;

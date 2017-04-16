@@ -25,6 +25,10 @@
     }
 
   }
+  
+  & .testimonials--1,.testimonials--2,.testimonials--3 {
+    //animation-duration: 1.5s;
+  }
 
   &__icon {
     float: left;
@@ -43,5 +47,4 @@
       //margin-right: 0;
     }
   }
-
 }

@@ -2030,6 +2030,10 @@ html {
   margin-bottom: 3.3rem;
 }
 
+.testimonials .testimonials--1,.testimonials .testimonials--2,.testimonials .testimonials--3 {
+  //animation-duration: 1.5s;
+}
+
 .testimonials__icon {
   float: left;
   width: 70px;
@@ -2051,16 +2055,38 @@ html {
   //margin-right: 0;
 }
 
-.reveal-item {
+.reveal-item {  
   opacity: 0;
-  -webkit-transition: all 1.5s ease-out;
-  transition: all 1.5s ease-out;
+  //transition: all 1.5s ease-out;
   //transform: scale(1.15);
 }
 
 .reveal-item--is-visible {
   opacity: 1;
   //transform: scale(1);
+}
+
+.duration-1-5s {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@media (min-width: 1010px) {
+
+  .delay-0s {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+
+  .delay-0-5s {
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+  }
+
+  .delay-1s {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
 }
 
 .site-footer {

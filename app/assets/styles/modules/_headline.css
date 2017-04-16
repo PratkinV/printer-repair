@@ -34,7 +34,7 @@
         margin-bottom: 3.4rem;
         //border:1px solid black;
         position: relative;
-        top: 14px;
+        top: 14px;        
         @mixin atSmall {
             font-size: 1.6rem;
         }
