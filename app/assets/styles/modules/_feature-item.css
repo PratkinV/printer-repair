@@ -52,4 +52,8 @@
     & p {
       color: #a2adb2;
     }
+  
+   /* & .feature-item__p--white {
+      color: #FFF;
+    }*/
 }

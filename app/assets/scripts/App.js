@@ -5,7 +5,7 @@ import RevealOnScroll from './modules/RevealOnScroll';
 
 
 var mobileMenu = new MobileMenu();
-new RevealOnScroll($(".testimonials--1, .testimonials--2, .testimonials--3"),"70%");
-var stickyHeader = new StickyHeader();
+new RevealOnScroll($(".testimonials--1, .testimonials--2, .testimonials--3"),"70%"); 
+var stickyHeader = new StickyHeader(); 
 
 

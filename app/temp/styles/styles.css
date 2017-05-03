@@ -1744,6 +1744,10 @@ html {
 .feature-item {
     position:relative;
     padding-bottom: 0.7rem;
+  
+   /* & .feature-item__p--white {
+      color: #FFF;
+    }*/
 }
 
 @media (min-width: 530px) {
