@@ -1,25 +1,21 @@
-.large-hero {
-    //border-bottom: 10px solid $mainBlue;
+.large-hero {    
 	   position: relative;
     padding-top: 10.5rem;
     padding-bottom: 9rem;
     background-color: $mainGrey;
     //background-image: url('../../../assets/images/pattern.png');
     /* adjusting path for docs folder */
-    background-image: url('../images/pattern.png');
-    //border: 1px solid red;
+    background-image: url('../images/pattern.png');   
 
     &__image {
         display: block;
     }
 
-    &__text-content {
-      //border: 1px solid red;
+    &__text-content {      
       width: 100%;
 
       @mixin atLarge {
-        width: 50%;
-        //margin-right: 35px;
+        width: 50%;        
       }
 
     }
@@ -27,12 +23,11 @@
 
 
 	&__title {
-	  font-weight: 500;
-		color: #FFF;
+	   font-weight: 500;
+		  color: #FFF;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-    letter-spacing: 0;
-		//border: 1px solid red;
-		margin: 0;
+    letter-spacing: 0;		
+		  margin: 0;
     font-size: 1.9rem;
 
         @mixin atSmall {
@@ -61,10 +56,10 @@
 		font-size: 1rem;
 		font-weight: 400;
 		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
-    line-height: 1.4;
+  line-height: 1.65;
 		width: 100%;
-    display: block;
-    overflow: auto;
+  display: block;
+  overflow: auto;
 
     p {
       margin: 30px 0;
@@ -88,8 +83,7 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    overflow: visible;
-    //border: 1px solid blue;
+    overflow: visible;    
     width: 250px;
     box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.2);
     margin-top: 80px;
@@ -110,18 +104,15 @@
     width: 250px;
     margin-top: 40px;
     position: relative;
-    left: -15px;
-    //border: 1px solid blue;
+    left: -15px;    
 
     @mixin atSmall {
-        width: 390px;
-        //margin-top: 40px;
+        width: 390px;        
     }
 
     @mixin atMedium {
       margin-top: 0;
     }
-
   }
 
 }
