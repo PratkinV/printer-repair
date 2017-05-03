@@ -1,6 +1,9 @@
 .page-section {
      padding: 1.2rem 0;
-     background-image: url('../../../assets/images/pattern.png');
+     //background-image: url('../../../assets/images/pattern.png');
+     /* adjusting path for docs folder */
+     background-image: url('../images/pattern.png');    
+
 
     @mixin atMedium {
         padding: 3rem 0;

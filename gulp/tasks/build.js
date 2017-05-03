@@ -24,7 +24,7 @@ gulp.task('copyGeneralFiles', ['deleteDocsFolder'], function() {
     var pathsToCopy = [
         './app/**/*',
         '!./app/index.html',
-        '!./app/assets/images/**',
+        //'!./app/assets/images/**',
         '!./app/assets/styles/**',
         '!./app/assets/scripts/**',
         '!./app/temp/**',
@@ -36,7 +36,10 @@ gulp.task('copyGeneralFiles', ['deleteDocsFolder'], function() {
 });
 
 gulp.task('optimizeImages', ['deleteDocsFolder'], function() {
-    return gulp.src(['./app/assets/images/**/*', '!./app/assets/images/icons', '!./app/assets/images/icons/**/*'])
+    return gulp.src(['./app/assets/images/**/*' 
+                     //'!./app/assets/images/icons', 
+                     //'!./app/assets/images/icons/**/*'
+                    ])
         .pipe(imagemin({
             progressive: true,
             interlaced: true,

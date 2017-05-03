@@ -995,7 +995,9 @@ html {
 
 .page-section {
      padding: 1.2rem 0;
-     background-image: url('../../../assets/images/pattern.png');
+     //background-image: url('../../../assets/images/pattern.png');
+     /* adjusting path for docs folder */
+     background-image: url('../images/pattern.png');
 }
 
 @media (min-width: 800px) {
@@ -1185,7 +1187,9 @@ html {
     padding-top: 10.5rem;
     padding-bottom: 9rem;
     background-color: #9c9a94;
-    background-image: url('../../../assets/images/pattern.png');
+    //background-image: url('../../../assets/images/pattern.png');
+    /* adjusting path for docs folder */
+    background-image: url('../images/pattern.png');
     //border: 1px solid red;
 
 }

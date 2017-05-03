@@ -4,7 +4,9 @@
     padding-top: 10.5rem;
     padding-bottom: 9rem;
     background-color: $mainGrey;
-    background-image: url('../../../assets/images/pattern.png');
+    //background-image: url('../../../assets/images/pattern.png');
+    /* adjusting path for docs folder */
+    background-image: url('../images/pattern.png');
     //border: 1px solid red;
 
     &__image {
