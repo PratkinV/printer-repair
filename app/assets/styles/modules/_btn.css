@@ -38,6 +38,7 @@
     box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.3);
     transition: all ease-in-out 300ms;
     width: 100%;
+    padding: .85rem 1.7rem;
 
     @mixin atSmall {
       width: auto;
@@ -48,7 +49,8 @@
       transform: translate(0px, -4px);
     }
   }
-
+  
+ 
   &--large {
     padding: 1.1rem 1.9rem;
 

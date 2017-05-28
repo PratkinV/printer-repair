@@ -88,6 +88,22 @@
         width: 33.33%;
       }
     }
+  
+    &--center {
+      position: relative;
+      margin: 0 auto;
+      
+      @mixin atMedium {
+        width: 70%;
+        max-width: 650px;
+      }   
+      
+      @mixin atLarge {
+        width: 50%;
+        max-width: 650px;
+      }   
+       
+    }
 
     &--testimonials {
         background-color: #e0e6ef;

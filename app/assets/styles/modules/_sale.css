@@ -1,4 +1,4 @@
-.contacts {
+.sale {
 
   &-container {
     display: block;
@@ -9,7 +9,7 @@
 
     p {
         font-weight: 300;
-        line-height: 1.65;
+        line-height: 1.81;
         margin: 0 0 0 0;
 
         @mixin atSmall {

@@ -21,6 +21,12 @@
       //border: 1px solid black;
       margin-right: 0;
       margin-left: auto;
+      
+      & p:last-child {
+        margin-top: 2.3rem;
+        padding-left: auto;
+        padding-right: auto;
+      }
 
 
 
@@ -37,6 +43,7 @@
       & .larger-font {
         font-size: 1.5rem;
         margin-top: .9rem;
+        line-height: 2.8rem;
 
         @mixin atMedium {
           font-size: 1.8rem;
@@ -66,12 +73,26 @@
       //border: 1px solid black;
       padding-left: 25px;
       padding-right: 25px;
+      
+      & p:last-child {
+        margin-top: 2.3rem;
+        padding-left: auto;
+        padding-right: auto;
+      }
 
       @mixin atLarge {
         max-width: 650px;
         padding-left: 50px;
         padding-right: 50px;
       }
+    }
+  
+    &--l-lr-padding {
+      @mixin atSmall {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      
     }
 
     &--medium {

@@ -8,7 +8,7 @@
   right: 0;
   opacity: 0;
   visibility: hidden;
-  transform: scale(1.2);
+  //transform: scale(1.2);
   transition: all .3s ease-out; 
 
   &--is-visible{
@@ -34,15 +34,117 @@
   &__close {
     position: absolute;
     top: 15px;
-    right: 15px;
+    right: 20px;
     font-size: 2rem;
     transform: scaleX(1.2);
     transform-origin: 100% 0;
-    color: $mainBlue;
+    color: #FFF;
     cursor: pointer;
+    
+    @mixin atSmall {
+      font-size: 2.2rem;
+      top: 20px;
+      right: 25px;
+    }
 
     &:hover {
       color: $mainOrange;
     }
   }
+}
+
+.modal-styles {
+
+  &-container {
+    display: block;
+
+
+
+    @mixin atMedium {
+      display: flex;
+    }
+
+    p {
+        font-weight: 300;
+        line-height: 1.65;
+        margin: 0 0 0 0;
+
+        @mixin atSmall {
+            font-size: 1.125rem;
+        }
+
+    }
+
+    p:last-child {
+      margin-bottom: 4.5rem;
+      
+      @mixin atSmall {
+          margin-bottom: 3.3rem;
+      }
+    }
+    
+    ul {      
+      padding-left: 10px;
+    }
+    
+    li {
+      line-height: 1.45;  
+      
+      @mixin atSmall {
+        line-height: 1.65;
+      }
+    }
+
+  }
+
+  &__icon {
+    float: left;
+    width: 60px;
+    margin-right: 20px;
+    //border: 1px solid black;
+    position: relative;
+    top: -15px;
+
+    @mixin atSmall {
+      margin-right: 45px;
+      top: -5px;
+    }
+
+    &--position {
+      top: 37px;
+      
+      @mixin atSmall {
+        top: 30px;
+      }
+      
+    }
+  }
+  
+  &__img {
+    //float: left;
+    width: 160px;
+    margin-right: 37px;
+    //border: 1px solid white;
+    position: relative;
+    top: -15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    @mixin atSmall {
+      margin-right: 45px;
+      top: -5px;
+      float: left;
+    }
+
+    &--position {
+      top: 37px;
+      
+      @mixin atSmall {
+        top: 30px;
+      }
+      
+    }
+  }
+
 }

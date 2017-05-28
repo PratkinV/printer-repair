@@ -37,6 +37,20 @@
         @mixin atLarge {
           font-size: 3.8rem;
         }
+   &--right {
+     text-align: right;
+     float: right;
+     font-size: 1.4rem;
+     color: $mainGrey;
+     background-color: #FFF;
+     margin-right: 20px;
+     padding: 10px 20px;
+     border-radius: 10px;
+     position: fixed;
+     right: 0;
+     bottom: 15px;
+     z-index: 2;
+   }
 
 	}
 
@@ -113,6 +127,17 @@
     @mixin atMedium {
       margin-top: 0;
     }
+  }
+  
+  &__icon {
+    width: 160px;
+    //float: right;
+    position: absolute;
+    margin-right: 10px;
+    margin-left: 1170px;
+    top: 620px;
+    z-index: 1;
+    
   }
 
 }
