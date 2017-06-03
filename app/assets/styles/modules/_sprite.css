@@ -1,309 +1,357 @@
 /* Do not edit modules/_sprite directly as it is generated automaticaly by Gulp. Instead edit gulp/templates/sprite */
 
     .icon {
-        background-image: url('../../assets/images/sprites/sprite-658ef602.svg');
+        background-image: url('../../assets/images/sprites/sprite-b5ee09f0.svg');
     }
 
     .no-svg {
-        background-image: url('../../assets/images/sprites/sprite-658ef602.png');
+        background-image: url('../../assets/images/sprites/sprite-b5ee09f0.png');
     }
 
 .icon--svg--001-technology-2 {
     width: 545px;
     height: 545px;
-    background-position: 85.47537937441932% 79.53301886792451%;
+    background-position: 16.63418336369156% 86.2732103782432%;
 }
 
 .icon--svg--002-printer-1 {
     width: 552px;
     height: 552px;
-    background-position: 0 40.1600582029829%;
+    background-position: 33.58685731670216% 51.8796992481203%;
 }
 
 .icon--svg--002-printer-2 {
     width: 552px;
     height: 552px;
-    background-position: 34.26443202979516% 60.24008730447436%;
+    background-position: 67.17371463340432% 0;
 }
 
 .icon--svg--002-technology-1 {
     width: 99px;
     height: 99px;
-    background-position: 99.78149659863945% 42.534978138663334%;
+    background-position: 58.850267379679146% 90.74924554183814%;
 }
 
 .icon--svg--002-technology-2 {
     width: 547.93px;
     height: 547.93px;
-    background-position: 85.55301031905692% 59.71515435495646%;
+    background-position: 0 86.35230142018166%;
 }
 
 .icon--svg--003-copy-machine {
     width: 99px;
     height: 99px;
-    background-position: 99.78149659863945% 39.44316052467208%;
+    background-position: 56.20320855614973% 90.74924554183814%;
 }
 
 .icon--svg--003-diploma-2 {
     width: 500px;
     height: 500px;
-    background-position: 81.14905314599878% 98.39343091752946%;
+    background-position: 99.07157831686133% 64.59771886559801%;
 }
 
 .icon--svg--004-customer-service {
     width: 465.18px;
     height: 465.18px;
-    background-position: 99.97521775134338% 0;
+    background-position: 98.04909568382426% 79.16110063986433%;
 }
 
 .icon--svg--004-notepad {
     width: 98.98px;
     height: 98.98px;
-    background-position: 99.78095357304178% 45.626510765079544%;
+    background-position: 61.4969973422602% 90.74874760632315%;
 }
 
 .icon--svg--005-calendar {
     width: 98px;
     height: 98px;
-    background-position: 99.74265505984766% 50.63815173275054%;
+    background-position: 66.74632451216252% 90.7243554580362%;
 }
 
 .icon--svg--005-diploma {
     width: 552px;
     height: 552px;
-    background-position: 51.39664804469274% 0;
+    background-position: 33.58685731670216% 0;
 }
 
 .icon--svg--006-machine {
     width: 552px;
     height: 552px;
-    background-position: 51.39664804469274% 20.08002910149145%;
+    background-position: 33.58685731670216% 17.293233082706767%;
 }
 
 .icon--svg--008-savings {
     width: 552px;
     height: 552px;
-    background-position: 51.39664804469274% 40.1600582029829%;
+    background-position: 0 34.58646616541353%;
 }
 
 .icon--svg--010-hand-phones {
     width: 552px;
     height: 552px;
-    background-position: 0 60.24008730447436%;
+    background-position: 16.79342865835108% 34.58646616541353%;
 }
 
 .icon--svg--011-mechanics {
     width: 552px;
     height: 552px;
-    background-position: 17.13221601489758% 60.24008730447436%;
+    background-position: 33.58685731670216% 34.58646616541353%;
 }
 
 .icon--svg--012-printed {
     width: 552px;
     height: 552px;
-    background-position: 0 0;
+    background-position: 50.38028597505324% 0;
 }
 
 .icon--svg--013-paper-printer {
     width: 552px;
     height: 552px;
-    background-position: 51.39664804469274% 60.24008730447436%;
+    background-position: 50.38028597505324% 17.293233082706767%;
 }
 
 .icon--svg--014-studying {
     width: 552px;
     height: 552px;
-    background-position: 68.52886405959032% 0;
+    background-position: 0 0;
 }
 
 .icon--svg--015-turned-off {
     width: 552px;
     height: 552px;
-    background-position: 68.52886405959032% 20.08002910149145%;
+    background-position: 0 51.8796992481203%;
 }
 
 .icon--svg--018-savings {
     width: 552px;
     height: 552px;
-    background-position: 17.13221601489758% 40.1600582029829%;
+    background-position: 16.79342865835108% 51.8796992481203%;
 }
 
 .icon--svg--avatars--001-people {
     width: 228.15px;
     height: 228.15px;
-    background-position: 99.72644076878605% 64.45091690124804%;
+    background-position: 97.93123502776355% 87.05519291209805%;
 }
 
 .icon--svg--avatars--002-social-1 {
     width: 549.29px;
     height: 549.29px;
-    background-position: 68.47127338582384% 60.17639940255332%;
+    background-position: 16.77594681598074% 69.11425450197358%;
 }
 
 .icon--svg--avatars--002-social-2 {
     width: 358.54px;
     height: 358.54px;
-    background-position: 96.85371809360964% 55.12190480074496%;
+    background-position: 45.752572935761364% 97.70636782003037%;
 }
 
 .icon--svg--avatars--003-people-3 {
     width: 548px;
     height: 548px;
-    background-position: 16.986980781153132% 80.20341445695605%;
+    background-position: 83.86508659981769% 51.43929912390488%;
 }
 
 .icon--svg--avatars--003-social {
     width: 548px;
     height: 548px;
-    background-position: 33.973961562306265% 80.20341445695605%;
+    background-position: 33.46004254026132% 69.0863579474343%;
 }
 
 .icon--svg--avatars--004-people-1 {
     width: 548px;
     height: 548px;
-    background-position: 85.55486670799752% 39.81111514711224%;
+    background-position: 50.111516256457% 69.0863579474343%;
 }
 
 .icon--svg--avatars--004-social-1 {
     width: 531.52px;
     height: 531.52px;
-    background-position: 33.34484715403025% 99.51326602827967%;
+    background-position: 81.90616420960973% 85.91119633429625%;
 }
 
 .icon--svg--avatars--005-social {
     width: 358.97px;
     height: 358.97px;
-    background-position: 96.86591333019037% 42.928522142874144%;
+    background-position: 35.44308526075925% 97.71877944951744%;
 }
 
 .icon--svg--avatars--006-people-2 {
     width: 151.06px;
     height: 151.06px;
-    background-position: 91.30706001203443% 70.11657364902189%;
+    background-position: 52.9005352581658% 92.06415915656815%;
 }
 
 .icon--svg--avatars--007-people-1 {
     width: 228.15px;
     height: 228.15px;
-    background-position: 93.29215843873824% 64.45091690124804%;
+    background-position: 91.61277815472812% 87.05519291209805%;
 }
 
 .icon--svg--avatars--008-people {
     width: 552px;
     height: 552px;
-    background-position: 17.13221601489758% 0;
+    background-position: 16.79342865835108% 0;
 }
 
 .icon--svg--avatars--009-user-2 {
     width: 98px;
     height: 98px;
-    background-position: 99.74265505984766% 53.69778332812988%;
+    background-position: 64.12670408981556% 90.7243554580362%;
 }
 
 .icon--svg--avatars--012-man {
     width: 548px;
     height: 548px;
-    background-position: 85.55486670799752% 19.90555757355612%;
+    background-position: 83.86508659981769% 68.58573216520651%;
+}
+
+.icon--svg--clipboard {
+    width: 551.88px;
+    height: 551.88px;
+    background-position: 67.17126238165933% 51.87774895680614%;
 }
 
 .icon--svg--curriculum {
     width: 552px;
     height: 552px;
-    background-position: 17.13221601489758% 20.08002910149145%;
+    background-position: 67.17371463340432% 34.58646616541353%;
 }
 
 .icon--svg--features--001-checklist {
     width: 552px;
     height: 552px;
-    background-position: 34.26443202979516% 0;
+    background-position: 67.17371463340432% 17.293233082706767%;
 }
 
 .icon--svg--features--002-deal {
     width: 552px;
     height: 552px;
-    background-position: 34.26443202979516% 20.08002910149145%;
+    background-position: 50.38028597505324% 51.8796992481203%;
 }
 
 .icon--svg--features--003-agreement-1 {
     width: 513.93px;
     height: 513.93px;
-    background-position: 65.73141067523089% 98.88520919819021%;
+    background-position: 99.48662734919866% 48.965502295615885%;
 }
 
 .icon--svg--features--004-analytics {
     width: 545px;
     height: 545px;
-    background-position: 0 100%;
+    background-position: 33.17941712204007% 86.2732103782432%;
 }
 
 .icon--svg--features--005-businessman {
     width: 548px;
     height: 548px;
-    background-position: 50.960942343459394% 80.20341445695605%;
+    background-position: 66.76298997265269% 69.0863579474343%;
 }
 
 .icon--svg--features--006-network {
     width: 552px;
     height: 552px;
-    background-position: 34.26443202979516% 40.1600582029829%;
+    background-position: 0 17.293233082706767%;
 }
 
 .icon--svg--features--007-bar-chart-1 {
     width: 400.87px;
     height: 400.87px;
-    background-position: 98.06915238962031% 16.0399706220066%;
+    background-position: 12.670841416700357% 98.94350503869128%;
 }
 
 .icon--svg--features--008-bar-chart {
     width: 396.92px;
     height: 396.92px;
-    background-position: 97.95444585263009% 29.82183686399824%;
+    background-position: 24.302456654116117% 98.82673853030104%;
 }
 
 .icon--svg--features--009-handshake {
     width: 548px;
     height: 548px;
-    background-position: 67.94792312461253% 80.20341445695605%;
+    background-position: 83.86508659981769% 34.292866082603254%;
 }
 
 .icon--svg--features--010-people {
     width: 548px;
     height: 548px;
-    background-position: 0 80.20341445695605%;
+    background-position: 83.86508659981769% 17.146433041301627%;
 }
 
 .icon--svg--features--011-agreement {
     width: 536.2px;
     height: 536.2px;
-    background-position: 16.83241707332139% 99.68171296296296%;
-}
-
-.icon--svg--features--clipboard {
-    width: 551.88px;
-    height: 551.88px;
-    background-position: 68.52631186920412% 40.158305203119546%;
+    background-position: 49.59216422429453% 86.03653594363738%;
 }
 
 .icon--svg--features--education {
     width: 548px;
     height: 548px;
-    background-position: 85.55486670799752% 0;
+    background-position: 83.86508659981769% 0;
 }
 
 .icon--svg--features--piggy-bank {
     width: 552px;
     height: 552px;
-    background-position: 0 20.08002910149145%;
+    background-position: 50.38028597505324% 34.58646616541353%;
+}
+
+.icon--svg--printer {
+    width: 551.88px;
+    height: 551.88px;
+    background-position: 0 69.17033194240818%;
 }
 
 .icon--svg--settings {
     width: 530.17px;
     height: 530.17px;
-    background-position: 49.716538782858535% 99.46478131101512%;
+    background-position: 99.97491560460949% 16.496516617244843%;
+}
+
+.icon--svg--settings--001-cogwheel-3 {
+    width: 521.28px;
+    height: 521.28px;
+    background-position: 99.70702771783031% 32.90202065336113%;
+}
+
+.icon--svg--settings--002-cogwheel-2 {
+    width: 552px;
+    height: 552px;
+    background-position: 16.79342865835108% 17.293233082706767%;
+}
+
+.icon--svg--settings--003-cogwheel-1 {
+    width: 534.9px;
+    height: 534.9px;
+    background-position: 65.80097454677522% 86.00168271477985%;
+}
+
+.icon--svg--settings--004-cogwheel {
+    width: 435.64px;
+    height: 435.64px;
+    background-position: 0 99.98337544886287%;
+}
+
+.icon--svg--settings--005-settings {
+    width: 92px;
+    height: 92px;
+    background-position: 71.87029623698959% 90.57530120481928%;
+}
+
+.icon--svg--settings--006-settings-1 {
+    width: 92px;
+    height: 92px;
+    background-position: 74.32559380838003% 90.57530120481928%;
+}
+
+.icon--svg--settings_-_копия {
+    width: 530.17px;
+    height: 530.17px;
+    background-position: 99.97491560460949% 0;
 }
 
 .icon--svg--smartphone {
     width: 98px;
     height: 98px;
-    background-position: 99.74265505984766% 56.75741492350921%;
+    background-position: 69.36594493450949% 90.7243554580362%;
 }
