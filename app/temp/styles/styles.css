@@ -1399,8 +1399,8 @@ html {
     font-weight: 400;
     font-size: 2.4rem;
     color: #FFF;
-    margin-bottom: 1.3em;
-    margin-top: 1.6em;
+    margin-bottom: 1.1em;
+    margin-top: 1.7em;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -1475,7 +1475,7 @@ html {
   margin-bottom: 3.4rem;
   //border:1px solid black;
   position: relative;
-  top: 14px;
+  top: 10px;
 }
 
 @media (min-width: 530px) {
@@ -2566,7 +2566,7 @@ html {
 
 .modal__close {
   position: absolute;
-  top: 15px;
+  top: 20px;
   right: 20px;
   font-size: 2rem;
   -webkit-transform: scaleX(1.2);
@@ -2605,7 +2605,7 @@ html {
 
 .modal-styles-container p {
   font-weight: 300;
-  line-height: 1.65;
+  line-height: 1.6;
   margin: 0 0 0 0;
 }
 
@@ -2613,6 +2613,7 @@ html {
 
   .modal-styles-container p {
     font-size: 1.125rem;
+    line-height: 1.65;
   }
 }
 
@@ -2632,7 +2633,7 @@ html {
 }
 
 .modal-styles-container li {
-  line-height: 1.45;
+  line-height: 1.42;
 }
 
 @media (min-width: 530px) {
@@ -2648,19 +2649,19 @@ html {
   margin-right: 20px;
   //border: 1px solid black;
   position: relative;
-  top: -15px;
+  top: 34px;
 }
 
 @media (min-width: 530px) {
 
   .modal-styles__icon {
     margin-right: 45px;
-    top: -5px;
+    top: 30px;
   }
 }
 
 .modal-styles__icon--position {
-  top: 37px;
+  top: 40px;
 }
 
 @media (min-width: 530px) {
@@ -2678,8 +2679,6 @@ html {
   position: relative;
   //top: -15px;
   display: block;
-  //margin-left: auto;
-  //margin-right: auto;
 }
 
 @media (min-width: 530px) {
