@@ -2679,6 +2679,7 @@ html {
   position: relative;
   //top: -15px;
   display: block;
+  left: 2px;
 }
 
 @media (min-width: 530px) {
@@ -2688,6 +2689,7 @@ html {
     margin-right: 45px;
     top: -5px;
     float: left;
+    left: 10px;
   }
 }
 
@@ -2700,4 +2702,8 @@ html {
   .modal-styles__img--position {
     top: 30px;
   }
+}
+
+.slick-dots {
+  color: #FFF;
 }
